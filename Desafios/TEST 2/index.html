@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Fasticon-Dino-Dino-blue.ico" type="image/x-icon">
+    <title>Teste Geral</title>
+</head>
+<body>
+    <h1>Neste teste pretendo relembrar tudo que ja vi até agora em HTML5</h1>
+    <p> Hierárquia de tìtulos: &lt;h1&gt; até &lt;h6&gt;</p>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, provident minima?<br> Consequuntur architecto rerum asperiores iusto eos accusantium molestias itaque dolorum, voluptatibus accusamus culpa illo reprehenderit. Corrupti porro suscipit voluptatibus.</p>
+    <p>Usar a tag &lt;br&gt; para quebrar linha no texto</p>
+    <hr>
+    <p>Para adicionar emoji no site basta colocar &#x + código do emoji no emojipédia ou outro site ex: &#x1F998</p>
+    <hr>
+    <p>a tag &lt;hr&gt; forma linhas no site</p>
+    <hr>
+    <h2>Adicionando favicon no site</h2>
+    <p>Basta colocar a palavra <strong>link:favicon</strong> na cabeça do seu código acima do &lt;title&gt;</p>
+    <hr>
+    <h2>Adicionando imagens no site</h2>
+    <p>PNG</p>
+    <img src="inter.png" alt="simbolo">
+    <p>JPG</p>
+    <img src="chamba.jpg" alt="simbolo">
+    <hr>
+    <h2>O que significa semântica</h2>
+    <p>semântica é tudo aquilo que tem um significado e o que é valor e não apenas forma. Forma é com CSS</p>
+    <p>Exemplo: Colocando a tag &lt;B&gt;para deixar em negrito ou a tag &lt;I&gt;para itálico, não teria sentido para o html por seu objetivo ser de MARCAÇÃO usamos a tag &lt;strong&gt; para negrito e &lt;em&gt; para itálico</p> 
+    <hr>
+    <h2>texto grande, pequeno, marcado, riscado</h2>
+    <p>texto grande é obsoleto pois não trás significado ex: <big>essa parte é grande a tag &lt;big&gt;</big></p>
+    <p>texto pequeno <small>essa parte é pequena se usa a tag &lt;small&gt;</small></p>
+    <p><mark>texto marcado</mark> usa a tag &lt;mark&gt;</p>
+    <p><del>deixa o texto riscado usa a tag &lt;del&gt;</del></p>
+    <hr>
+    <h1>formatação monoespaçada</h1>
+    <p>tem que envelopar com a tag &lt;code&gt;</p>
+    <code>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit tempora ducimus distinctio illum? Voluptate quis exercitationem accusantium earum illo fugiat voluptates, eligendi deserunt eum molestiae vero eveniet unde deleniti.</p>
+        <p>envelopar o &lt;code&gt; com o &lt;pre&gt; tras a formatação de código no site </p>
+        <pre>
+            <code>
+                num = int(input('digite um numero'))
+                if num %2 == 0;
+                    print(f'o numero{num} é PAR)
+                else:
+                    print(f'o numero{num} é IMPAR)
+                print('fim do programa')
+            </code>
+        </pre>
+        
+    </code>
+    <hr>
+    <h2>Citação simples</h2>
+    <p>envelopar a frase da citação com a tag &lt;q&gt;<br>exemplo: como diria um sábio, <q>só sei que nada sei</q> </p>
+    <h2>citação completa</h2>
+    <p>segundo o jornal nacional:</p>
+    <p>Para referenciar o mecanismo de busca e mostrar pro google que tu ta citando algum livro ou revista, basta colocar a tag &lt;blockquote cite="link copiado do site que vai ser citado"&gt; </p>
+    <blockquote>
+        O importante é ter saúde mas o que vale mesmo é se hidratar tomando bastante vinho de budega amarela
+    </blockquote>
+    <h2>abreviação</h2>
+    <p>basta envelopar a sigla com a tag &lt;abbr&gt; exemplo: <abbr title="Internacional">INT</abbr> 4 X 1<abbr title="Caxias"> CAX</abbr></p>
+    <hr>
+    <h2>Listas ordenadas</h2>
+    <ol>
+        <li>cafe</li>
+        <li>açucar</li>
+        <li>feijão</li>
+        <li>alface</li>
+    </ol>
+    <h2>Listas desordenadas</h2>
+    <ul type="circle">
+        <li>fisica</li>
+        <li>quimica</li>
+        <li>asteca</li>
+    </ul>
+    <h2>Listas mistas e de definição</h2>
+    <ol>
+        <li>Seie A</li>
+        <ol type="1">
+            <li>Internacional</li>
+            <li>Ypiranga</li>
+            <li>Arsenal</li>
+        </ol>
+        
+        <li>Serie B</li>
+        <ol type="1" start="4">
+            <li>Gremio</li>
+            <li>Miami</li>
+            <li>Confucio</li>
+        </ol>
+    </ol>
+    <hr>
+    <h2>colocando links no site</h2>
+    <h2>link externo</h2>
+   <p>entre no meu <a href="https://www.facebook.com/ruggierigularte" target="_blank" rel="external">facebook</a></p>
+   <h2>link interno</h2>
+   <p>clique <a href="pag02.html" rel="next">aqui</a> para entrar </p>
+   <p>voce pode tambem acessar minha pagina de <a href="noticias/pag03.html" rel="">noticias</a></p>
+    <hr>
+    <h1>link para download</h1>
+    <p>para <a href="livro/livro diário .pdf" download="livro.pdf" type="aplication,pdf">baixar</a> meu livro em PDF</p>
+    <p>para <a href="livro/livro diário .zip" download="livro.zip" type="aplication.zip">baixar</a> meu livro em ZIP</p>
+    <hr>
+    <h2>imagem dinamica</h2>
+    <p>este é um modelo de imagem dinâmica como se eu tivesse vendo no celular, tablet e notbook</p>
+    <picture>
+        <source media="(max-width:600px )" srcset="imagem-p-200.jpg">
+        <source media="(max-width:850px )" srcset="imagem-m-600.jpg">
+        <img src="imagem-g-800.jpg" alt="pessoas">
+    </picture>
+    <hr>
+    <h1>Colocando Áudio no HTML5</h1>
+    <p>Esse modo é para colocar áudio que funcione em todas modelos de áudios</p>
+    <audio preload="auto" controls autoplay loop>    
+        <source src="audio/penumbra.mp3" type="audio/mpeg">
+        <source src="audio/penumbra.ogg" type="audio/ogg">
+        <source src="audio/penumbra.wav" type="audio/wav">
+    </audio>
+    
+</body>
+</html>
